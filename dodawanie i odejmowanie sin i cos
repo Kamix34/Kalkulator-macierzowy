@@ -1,0 +1,28 @@
+
+// Funkcja dodawania sinusów
+double dodajSinus(double a, double b) {
+    double sinus1 = std::sin(kat1);
+    double sinus2 = std::sin(kat2);
+    return sinus1 + sinus2;
+}
+
+// Funkcja odejmowania sinusów
+double odejmijSinus(double a, double b) {
+    double sinus1 = std::sin(a);
+    double sinus2 = std::sin(b);
+    return sinus1 - sinus2;
+}
+
+// Funkcja dodawania cosinusów
+double dodajCosinus(double a, double b) {
+    double cosinus1 = std::cos(a);
+    double cosinus2 = std::cos(b);
+    return cosinus1 + cosinus2;
+}
+
+// Funkcja odejmowania cosinusów
+double odejmijCosinus(double a, double b) {
+    double cosinus1 = std::cos(a);
+    double cosinus2 = std::cos(b);
+    return cosinus1 - cosinus2;
+}

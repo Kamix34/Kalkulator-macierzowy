@@ -9,6 +9,6 @@ double dzielenie(double a, double b) {
         return a / b;
     } else {
         std::cout << "Nie mozna dzielic przez zero!" << std::endl;
-        return 0;
+        return 0;  
     }
 }

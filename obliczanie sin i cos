@@ -1,6 +1,6 @@
 double sin(double a) {
     return std::sin(a);
-}
+} 
 
 double cos(double a) {
     return std::cos(a);

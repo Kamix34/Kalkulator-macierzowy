@@ -1,11 +1,7 @@
-#include <iostream>
-
-// Funkcja dodawania
-int dodawanie(int a, int b) {
+double dodawanie(double a, double b) {
     return a + b;
 }
 
-// Funkcja odejmowania
-int odejmowanie(int a, int b) {
+double odejmowanie(double a, double b) {
     return a - b;
 }

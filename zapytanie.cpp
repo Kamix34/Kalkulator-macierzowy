@@ -1,9 +1,8 @@
 #include <iostream>
 
 int main() {
-    double a, b;
-    int wybor;
-    std::cout << "Podaj dwie liczby: ";
-    std::cin >> a >> b;
+    std::cout << "Wybierz operację do wykonania:" << std::endl;
+    std::cout << "Twoj wybor: ";
+    std::cin >> wybor;
     return 0;
 }

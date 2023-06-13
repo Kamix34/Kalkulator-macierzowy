@@ -1,0 +1,29 @@
+Macierz operator+(const Macierz& other) {
+        if (rozmiar != other.rozmiar) {
+            std::cout << "Nie można dodać macierzy o różnych rozmiarach!" << std::endl;
+            return *this;
+        } else {
+            std::vector<std::vector<double>> wynik(rozmiar, std::vector<double>(rozmiar));
+            for (int i = 0; i < rozmiar; i++) {
+                for (int j = 0; j < rozmiar; j++) {
+                    wynik[i][j] = macierz[i][j] + other.macierz[i][j];
+                }
+            }
+            return Macierz(wynik);
+        }
+    }
+
+    Macierz operator-(const Macierz& other) {
+        if (rozmiar != other.rozmiar) {
+            std::cout << "Nie można odjąć macierzy o różnych rozmiarach!" << std::endl;
+            return *this;
+        } else {
+            std::vector<std::vector<double>> wynik(rozmiar, std::vector<double>(rozmiar));
+            for (int i = 0; i < rozmiar; i++) {
+                for (int j = 0; j < rozmiar; j++) {
+                    wynik[i][j] = macierz[i][j] - other.macierz[i][j];
+                }
+            }
+            return Macierz(wynik);
+        }
+    }

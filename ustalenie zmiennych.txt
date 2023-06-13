@@ -1,0 +1,2 @@
+zmienna 1 "a"
+zmienna 2 "b"

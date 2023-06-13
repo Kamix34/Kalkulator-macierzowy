@@ -1,6 +1,9 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Jakiej funkcji chcesz uzyc? " << std::endl;
+    double a, b;
+    int wybor;
+    std::cout << "Podaj dwie liczby: ";
+    std::cin >> a >> b;
     return 0;
 }

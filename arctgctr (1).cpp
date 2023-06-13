@@ -1,10 +1,10 @@
 #include <iostream>
 #include <cmath>
 
-double oblicz_atan(double x) {
-    return atan(x);
+double arctan(double a) {
+    return std::atan(a);
 }
 
-double oblicz_atan2(double y, double x) {
-    return atan2(y, x);
+double arccotan(double a) {
+    return std::atan(1 / a);
 }

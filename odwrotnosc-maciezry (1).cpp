@@ -8,7 +8,7 @@ void wyswietlMacierz(const std::vector<std::vector<double>>& macierz) {
         for (int j = 0; j < n; ++j) {
             std::cout << macierz[i][j] << " ";
         }
-        std::cout << std::endl;
+        std::cout << std::endl;   
     }
 }
 

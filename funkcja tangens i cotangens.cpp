@@ -5,5 +5,5 @@ int tangens(int a){
 }
 
 int cotangens(int a){
-	return std::cot(a);
+	return std::cot(a); 
 }

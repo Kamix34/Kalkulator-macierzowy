@@ -9,7 +9,7 @@ double obliczWyznacznik() {
                 for (int i = 1; i < rozmiar; i++) {
                     int j1 = 0;
                     for (int j = 0; j < rozmiar; j++) {
-                        if (j == k)
+                        if (j == k)  
                             continue;
                         podmacierz[i - 1][j1] = macierz[i][j];
                         j1++;

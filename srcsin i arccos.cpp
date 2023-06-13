@@ -3,5 +3,5 @@ double arcsin(double a) {
 }
 
 double arccos(double a) {
-    return std::acos(a);
+    return std::acos(a); 
 }

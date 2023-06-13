@@ -1,4 +1,4 @@
 double calculateDerivative(double a) {
     double derivative = std::derivative([](double x) { return x; }, a);
     return derivative;
-}
+}  
